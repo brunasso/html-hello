@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+}
+#topOfPage{
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    height: 75px;
+}
+h1{
+    width: 70%;
+    margin-right: 165px;
+}
+#bodyOfPage{
+    background-color: rgba(221, 218, 218, 0.842);
+    display: grid;
+    margin: 20px 0 20px 0;
+    align-items: center;
+    justify-items: center;
+    height: 100%;
+    width: 100%;
+}
+#photogram{
+    background-color: white;
+    margin: 20px 0 20px 0;
+    width: 40%;
+    height: 90%;
+}
+img{
+    position: relative;
+    width: 100%;
+}
+#photogram-head{
+    margin: 0 7px 0 7px;
+}
+#photogram-head :nth-child(2n){
+    color: rgba(160, 159, 159, 0.664);
+}
+#firstPhoto{
+    display: flex;
+    float: left;
+}
+#date{
+    display: flex;
+    float: right;
+}
+#photogram-footer{
+    padding: 0px 10px 15px 10px;
+    margin: 0px 26px;
+}
+#photogram-footer p {
+    font-size: larger;
+}
